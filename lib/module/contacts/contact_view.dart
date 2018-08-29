@@ -79,5 +79,5 @@ class _ContactListItem extends ListTile {
       : super(
             title: new Text(contact.fullName),
             subtitle: new Text(contact.email),
-            leading: new CircleAvatar(child: new Text(contact.fullName[0])));
+            leading: new CircleAvatar(child: new Text(contact.fullName[0]),backgroundColor: Colors.green,));
 }
